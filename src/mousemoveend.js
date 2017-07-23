@@ -1,4 +1,4 @@
-(function () {
+const mousemoveend = (function () {
     let timeout;
     document.addEventListener('mousemove', e => {
         clearTimeout(timeout);
